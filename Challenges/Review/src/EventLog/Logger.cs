@@ -52,6 +52,7 @@ namespace EventLog
 
         public void Dispose()
         {
+            _et.Dispose();
         }
     }
 }
